@@ -30,3 +30,44 @@ body {
   touch-action: pan-y, pan-x;
   transition: all 0.4s cubic-bezier(0.57, 0.25, 0.33, 1) 0s;
 }
+
+.container{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+
+
+@media screen and (min-width:576px) {
+  .container{
+    max-width: 540px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .container{
+    max-width: 720px;
+  }
+}
+
+
+@media screen and (min-width:992px) {
+  .container{
+    max-width: 960px;
+  }
+}
+
+
+@media screen and (min-width:1200px) {
+  .container{
+    max-width: 1200px;
+  }
+}
+
+@media screen and (min-width:2100px) {
+  .container{
+    max-width: 1600px;
+  }
+}
